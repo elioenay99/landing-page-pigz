@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+img,
+div,
+p {
+  display: flex;
+}
+.App {
+  width: 414pt;
+  height: 5580pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  color: #ffffff;
+}
+.Container {
+  align-items: relative;
+  display: flex;
+}
+.App-logo {
+  position: relative;
+  overflow: hidden;
+  padding: 16px;
+  border: 1px dashed white solid;
+}
+.App-logo h1 {
+  padding: 100px;
+  position: relative;
+  z-index: 2;
+}
+.App-logo img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+.App-logo {
+  display: flex;
+  height: 32pt;
+  width: 63.99pt;
+  margin-top: 60pt;
+  margin-left: 16pt;
+  margin-bottom: 16pt;
+  margin-right: 334.01pt;
+}
+.Retangulo {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff881f+0,fa641e+100 */
+  background: #ff881f; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #ff881f 0%,
+    #fa641e 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #ff881f 0%,
+    #fa641e 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff881f 0%,
+    #fa641e 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff881f', endColorstr='#fa641e',GradientType=1 ); /* IE6-9 */
+
+  margin-top: -55pt;
+  margin-left: 240pt;
+  margin-right: 16pt;
+  margin-bottom: 16pt;
+  width: 158pt;
+  height: 32pt;
+  align-items: center;
+  text-align: center;
+  border-radius: 32pt;
+}
+.texto1 {
+  font-size: 13pt;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: medium;
+  height: 20pt;
+  width: 110pt;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 21pt;
+  border-color: #00000000;
+  border-width: 1pt;
+  margin-top: 6pt;
+  margin-left: 24pt;
+  margin-right: 24pt;
+  margin-bottom: 6pt;
+}
+
+.box {
+  width: 414pt;
+  height: 1015pt;
+  margin-top: 16pt;
+  margin-bottom: 94pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  background: #ff881f;
+  background: -moz-linear-gradient(left, #ff881f 0%, #fa641e 100%);
+  background: -webkit-linear-gradient(left, #ff881f 0%, #fa641e 100%);
+  background: linear-gradient(to right, #ff881f 0%, #fa641e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff881f', endColorstr='#fa641e',GradientType=1 ); /* IE6-9 */
+}
+
+.texto2 {
+  display: block;
+  width: 382pt;
+  height: 200pt;
+  margin-top: 32pt;
+  margin-bottom: 783pt;
+  margin-left: 16pt;
+  margin-right: 10pt;
+  text-align: left;
+  font-size: 40pt;
+  font-weight: bold;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 48pt;
+  color: #ffffff;
+  opacity: 100%;
+}
+.Burguer {
+  width: 250pt;
+  height: 250pt;
+  margin-top: 14pt;
+  margin-bottom: 763pt;
+  margin-left: -60pt;
+  margin-right: -90pt;
+}
+.texto3 {
+  width: 382pt;
+  height: 71pt;
+  margin-top: -850pt;
+  margin-bottom: 40pt;
+  margin-left: 16pt;
+  margin-right: 16pt;
+  text-align: left;
+  display: flex;
+  font-size: 16pt;
+  letter-spacing: 0.08pt;
+  line-height: 24pt;
+  color: #ffffff;
+  opacity: 100%;
+  flex-direction: column;
+  font-family: Poppins;
+  font-weight: regular;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 382pt;
+  height: 547pt;
+  margin-left: 16pt;
+  margin-right: 16pt;
+  margin-bottom: 105pt;
+  margin-top: -740pt;
+  border-radius: 32pt;
+  opacity: 100%;
+}
+
+.texto4 {
+  color: #333333;
+  font-size: 27pt;
+  text-align: left;
+  font-weight: regular;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 40pt;
+  width: 301pt;
+  height: 39pt;
+  margin-right: 57pt;
+  margin-top: 32pt;
+  margin-bottom: 8pt;
+  margin-left: 24pt;
+}
+
+.texto5 {
+  color: #333333;
+  font-size: 12pt;
+  text-align: left;
+  font-weight: 400;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 40pt;
+  width: 323pt;
+  height: 19pt;
+  margin-top: 8pt;
+  margin-bottom: 8pt;
+  margin-left: 24pt;
+  margin-right: -100pt;
+}
+
+.nome {
+  color: #333333;
+  font-size: 11pt;
+  text-align: left;
+  font-weight: 600;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 40pt;
+  width: 36pt;
+  height: 17pt;
+  margin-top: 8pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: -100pt;
+}
+
+.box3 {
+  background-color: rgb(255, 255, 255);
+  width: 334pt;
+  height: 48pt;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: 24pt;
+  border-radius: 16pt;
+  border-color: #999999;
+  border-width: 1pt;
+  border-style: solid;
+}
+
+.texto6 {
+  color: #cccccc;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: regular;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 21pt;
+  width: 142pt;
+  height: 20pt;
+  margin-top: 14pt;
+  margin-bottom: 14pt;
+  margin-left: 16pt;
+  margin-right: 176pt;
+}
+
+.email {
+  color: #333333;
+  font-size: 11pt;
+  text-align: left;
+  font-weight: 600;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 18pt;
+  width: 40pt;
+  height: 17pt;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: 318pt;
+}
+
+.box4 {
+  background-color: rgb(255, 255, 255);
+  width: 334pt;
+  height: 48pt;
+  margin-top: -2pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: 24pt;
+  border-radius: 16pt;
+  border-color: #999999;
+  border-width: 1pt;
+  border-style: solid;
+}
+
+.texto7 {
+  color: #cccccc;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: regular;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 21pt;
+  width: 142pt;
+  height: 20pt;
+  margin-top: 14pt;
+  margin-bottom: 14pt;
+  margin-left: 16pt;
+  margin-right: 176pt;
+}
+
+.telefone {
+  color: #333333;
+  font-size: 11pt;
+  text-align: left;
+  font-weight: 600;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 18pt;
+  width: 40pt;
+  height: 17pt;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: 318pt;
+}
+
+.box5 {
+  background-color: rgb(255, 255, 255);
+  width: 334pt;
+  height: 48pt;
+  margin-top: -2pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: 24pt;
+  border-radius: 16pt;
+  border-color: #999999;
+  border-width: 1pt;
+  border-style: solid;
+}
+
+.texto8 {
+  color: #cccccc;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: regular;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 21pt;
+  width: 142pt;
+  height: 20pt;
+  margin-top: 14pt;
+  margin-bottom: 14pt;
+  margin-left: 16pt;
+  margin-right: 176pt;
+}
+
+.texto9 {
+  color: #666666;
+  font-size: 13pt;
+  text-align: left;
+  font-weight: 400;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 21pt;
+  width: 334pt;
+  height: 40pt;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: 318pt;
+  border-color: #00000000;
+}
+
+.box6 {
+  background-color: #fa641e;
+  width: 334pt;
+  height: 48pt;
+  margin-top: 30pt;
+  margin-bottom: 6pt;
+  margin-left: 24pt;
+  margin-right: 24pt;
+  border-radius: 16pt;
+}
+
+.texto10 {
+  color: #ffffff;
+  font-size: 16pt;
+  text-align: center;
+  font-weight: medium;
+  font-family: Poppins;
+  letter-spacing: 0pt;
+  line-height: 21pt;
+  width: 334pt;
+  height: 40pt;
+  margin-top: 12.12pt;
+  margin-bottom: 12.88pt;
+  margin-left: 127pt;
+  margin-right: 127pt;
+}
+
+.grupo1 {
+  width: 205.3pt;
+  height: 140pt;
+  opacity: 100%;
+  margin-left: 104.35pt;
+  margin-right: 104.35pt;
+  margin-top: 70pt;
+  margin-bottom: 20pt;
+}
+
+.texto11 {
+  margin-top: 200pt;
+  margin-bottom: 20pt;
+  width: 286pt;
+  height: 85pt;
+  margin-left: 64pt;
+  margin-right: 64pt;
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 40pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.box7 {
+  width: 270pt;
+  height: 243pt;
+  margin-top: 40pt;
+  margin-bottom: 20pt;
+  margin-left: 72pt;
+  margin-right: 72pt;
+  opacity: 100%;
+  flex-direction: column;
+  color: #fafafa;
+  border-radius: 64pt;
+  opacity: 100%;
+}
+
+.grupo2 {
+  width: 72pt;
+  height: 72pt;
+  margin-top: 40pt;
+  margin-bottom: 131pt;
+  margin-left: 100pt;
+  margin-right: 98pt;
+  opacity: 100%;
+}
+
+.texto12 {
+  margin-top: -120pt;
+  margin-bottom: 8pt;
+  width: 128pt;
+  height: 85pt;
+  margin-left: 71pt;
+  margin-right: 71pt;
+  font-size: 20pt;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 80pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.texto13 {
+  margin-top: -25pt;
+  margin-bottom: 40pt;
+  width: 221pt;
+  height: 23pt;
+  margin-left: 24pt;
+  margin-right: 24pt;
+  font-size: 16pt;
+  font-weight: regular;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 26pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.box8 {
+  width: 270pt;
+  height: 243pt;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: 72pt;
+  margin-right: 72pt;
+  opacity: 100%;
+  flex-direction: column;
+  color: #fafafa;
+  border-radius: 64pt;
+  opacity: 100%;
+}
+
+.grupo3 {
+  width: 72pt;
+  height: 72pt;
+  margin-top: 40pt;
+  margin-bottom: 42pt;
+  margin-left: 99pt;
+  margin-right: 99pt;
+  opacity: 100%;
+}
+
+.texto14 {
+  margin-top: -20pt;
+  margin-bottom: 8pt;
+  width: 200pt;
+  height: 85pt;
+  margin-left: 71pt;
+  margin-right: 71pt;
+  font-size: 20pt;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 80pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.texto15 {
+  margin-top: -20pt;
+  margin-bottom: 40pt;
+  width: 239pt;
+  height: 23pt;
+  margin-left: 44pt;
+  margin-right: 24pt;
+  font-size: 16pt;
+  font-weight: regular;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 26pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+.box9 {
+  width: 270pt;
+  height: 243pt;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: 72pt;
+  margin-right: 72pt;
+  opacity: 100%;
+  flex-direction: column;
+  color: #fafafa;
+  border-radius: 64pt;
+  opacity: 100%;
+}
+
+.grupo4 {
+  width: 72pt;
+  height: 72pt;
+  margin-top: 40pt;
+  margin-bottom: 32pt;
+  margin-left: 99pt;
+  margin-right: 99pt;
+  opacity: 100%;
+}
+
+.texto16 {
+  margin-top: -20pt;
+  margin-bottom: 8pt;
+  width: 200pt;
+  height: 28pt;
+  margin-left: 71pt;
+  margin-right: 71pt;
+  font-size: 20pt;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 80pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.texto17 {
+  margin-top: 32pt;
+  margin-bottom: 40pt;
+  width: 235pt;
+  height: 23pt;
+  margin-left: 44pt;
+  margin-right: 24pt;
+  font-size: 16pt;
+  font-weight: regular;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 26pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.box10 {
+  width: 270pt;
+  height: 243pt;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: 72pt;
+  margin-right: 72pt;
+  opacity: 100%;
+  flex-direction: column;
+  color: #fafafa;
+  border-radius: 64pt;
+  opacity: 100%;
+}
+
+.grupo5 {
+  width: 72pt;
+  height: 72pt;
+  margin-top: 40pt;
+  margin-bottom: 32pt;
+  margin-left: 99pt;
+  margin-right: 99pt;
+  opacity: 100%;
+}
+
+.texto18 {
+  margin-top: -30pt;
+  margin-bottom: 8pt;
+  width: 190pt;
+  height: 28pt;
+  margin-left: 50pt;
+  margin-right: 80pt;
+  font-size: 20pt;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 80pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.texto19 {
+  margin-top: 30pt;
+  margin-bottom: 40pt;
+  width: 235pt;
+  height: 23pt;
+  margin-left: 84pt;
+  margin-right: 24pt;
+  font-size: 16pt;
+  font-weight: regular;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 26pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.texto20 {
+  margin-top: 30pt;
+  margin-bottom: 40pt;
+  width: 334pt;
+  height: 125pt;
+  margin-left: 40pt;
+  margin-right: 40pt;
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 40pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
+
+.texto21 {
+  margin-top: 30pt;
+  margin-bottom: 40pt;
+  width: 286pt;
+  height: 95pt;
+  margin-left: 64pt;
+  margin-right: 64pt;
+  font-size: 24pt;
+  font-weight: regular;
+  text-align: center;
+  letter-spacing: 0pt;
+  line-height: 24pt;
+  font-family: Poppins;
+  color: #333333;
+  opacity: 100%;
+}
